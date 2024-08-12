@@ -1,0 +1,4 @@
+[MongoDB]
+User - Dev
+pass - oHBOodQcY0uPY3kT
+connection string - mongodb+srv://Dev:oHBOodQcY0uPY3kT@forex-app.c76hwha.mongodb.net/
