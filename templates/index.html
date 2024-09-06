@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Trading API</h1>
+    <p>Use the endpoints below to interact with the trading platform:</p>
+    <ul>
+        <li><a href="/orders">View Orders</a></li>
+        <li><a href="/pending_orders">View Pending Orders</a></li>
+    </ul>
+    <form action="/trade" method="post">
+        <label for="instrument">Instrument:</label><br>
+        <input type="text" id="instrument" name="instrument" value="EUR_USD"><br><br>
+        <label for="units">Units:</label><br>
+        <input type="number" id="units" name="units" value="1000"><br><br>
+        <input type="submit" value="Execute Trade">
+    </form>
+</body>
+</html>
+
