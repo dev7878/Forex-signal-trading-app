@@ -3,3 +3,4 @@ pandas
 flask-pymongo
 flask-login
 requests
+oandapyV20
